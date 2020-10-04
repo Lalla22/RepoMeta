@@ -1,0 +1,161 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2020.10.04 16:02:48 =~=~=~=~=~=~=~=~=~=~=~=
+login as: lsnkara     ankara
+Pre-authentication banner message from server:
+| Access to Brooklyn College computers is restricted to authorized users
+|         and approved educational and research purposes, only.
+End of banner message from server
+lsankara@146.245.252.28's password: 
+Last login: Sun Oct  4 14:55:08 2020 from 70.23.6.84
+]0;lsankara@sol28:~[?1034h[lsankara@sol28 ~]$ git clone [K[K[K[K[K[K[K[K[K[Kecho "# Repo1" >> READ.d[Kmd
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git init
+Reinitialized existing Git repository in /users1/st/lsankara/.git/
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git add README.MD[K[Kmd
+fatal: pathspec 'README.md' did not match any files
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git commit -m"[K "first commit:[K'[K"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lsankara@sol28.(none)')
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git branch -M main
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git remote add O[Korigin https://github.com/Lalla22/Repo1.git
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git push -u orgin main
+Username for 'http://github.com': Lalla22
+Password for 'http://Lalla22@github.com': 
+remote: Repository not found.
+fatal: repository 'http://github.com/Lalla22/.git/' not found
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git remote add origin https://github.com/Lalla22/Repo1.git
+fatal: remote origin already exists.
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git init
+Reinitialized existing Git repository in /users1/st/lsankara/.git/
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git add .
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git status
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .bash_history
+#	new file:   .bash_profile
+#	new file:   .bashrc
+#	new file:   .cache/abrt/lastnotification
+#	new file:   READ.md
+#
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git commit -m"[K "Committing Files - Message"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lsankara@sol28.(none)')
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git config --global lallasankara@gmail.com
+error: invalid key: lallasankara@gmail.com
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git cong[Kfig --global Lalla Sn[Kankat[Kra
+error: key does not contain a section: Lalla
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git remote add orgin C:\Users\lalla\HelloWorld\program\Hello World.java
+fatal: remote orgin already exists.
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git add HelloWorld .java
+fatal: pathspec 'HelloWorld' did not match any files
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git add HelloWorld,java
+fatal: pathspec 'HelloWorld,java' did not match any files
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git add HelloWorld.java
+fatal: pathspec 'HelloWorld.java' did not match any files
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git push -u orgin master
+f Username for 'http://github.com': LAlla    alla22
+Password for 'http://Lalla22@github.com': 
+remote: Repository not found.
+fatal: repository 'http://github.com/Lalla22/.git/' not found
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git clone https://github.com/Lalla22/Repo1
+fatal: destination path 'Repo1' already exists and is not an empty directory.
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git remote add orgin <https://github.com/Lalla22/Repo1>
+-bash: syntax error near unexpected token `newline'
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git remote add orgin https://github.com/Lalla22/Repo1
+fatal: remote orgin already exists.
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git push -U orgin master
+error: unknown switch `U'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    --delete              delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --recurse-submodules[=<check>]
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ cd ([K<C:\Users\lalla\HelloWorld\program\HelloWorld.java>
+-bash: syntax error near unexpected token `newline'
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ cd ([K[K[K[Kdir
+READ.md  Repo1
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git add ([K<HelloWorld.javaa[K>
+-bash: syntax error near unexpected token `newline'
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ cd <destination folder>
+-bash: syntax error near unexpected token `newline'
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git add -A
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ cd~[K ~
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ touch .bashrc
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ PATH [K= [K$PATH:"C:\Users\lalla\HelloWorld\program\HelloWorld.jav a"
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git commit
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'lsankara@sol28.(none)')
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ git push https://github.com/Lalla22/RepoMeta
+warning: push.default is unset; its implicit value is changing in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the current behavior after the default changes, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': LAlla    alla22
+Password for 'https://Lalla22@github.com': 
+Everything up-to-date
+]0;lsankara@sol28:~[lsankara@sol28 ~]$ https://github.com/Lalla22/RepoMeta
